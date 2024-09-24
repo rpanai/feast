@@ -3,7 +3,6 @@ name: lint-pr
 on:
   pull_request_target:
     paths-ignore:
-      - '.github/**'
       - 'community/**'
       - 'docs/**'
       - 'examples/**'
