@@ -1,8 +1,7 @@
 name: smoke-tests
 
 on:
-pull_request_target:
-    paths-ignore:
+  pull_request_target:
       paths-ignore:
         - 'community/**'
         - 'docs/**'
